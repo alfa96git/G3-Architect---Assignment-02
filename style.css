@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Inter&family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+
+/* Basic CSS Code. */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+}
+
+:root {
+    --primary-color: #FF900E;
+    --font-primary: #131313;
+    --font-secondary: #727272;
+}
+
+/* Start Header & Banner Section.  */
+
+.header-and-banner {
+    padding: 20px 0 40px 0;
+    background-color: #fb8f134d;
+}
+
+
+.header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    font-size: 45px;
+    color: var(--font-primary);
+    font-weight: 700;
+}
+
+.header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .menu ul {
+    display: flex;
+    gap: 20px;
+}
+
+.header .menu ul li a,
+.menu-btn {
+    font-size: 18px;
+    color: #424242;
+}
+
+.menu-btn {
+    display: none;
+}
+
+
+.banner {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+
+.banner-descriptions {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 60px;
+    color: var(--font-primary);
+}
+
+.banner-description {
+    font-size: 16px;
+    color: var(--font-secondary);
+    line-height: 26px;
+    width: 50%;
+    text-align: center;
+}
+
+.btn-primary {
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 20px 25px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    width: 20%;
+}
+
+.banner-img {
+    width: 85%;
+}
+
+.banner-img img {
+    width: 100%;
+}
